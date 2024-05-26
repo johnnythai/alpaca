@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+@import "../../node_modules/bulma/sass/base/_all.sass";
+@import "../../node_modules/bulma/sass/utilities/_all.sass";
+@import '../../node_modules/bulma/sass/helpers/_all.sass';
+
+// #343233
+
+$link: $primary;
+
+$navbar-item-hover-background-color: #ffffff00;
+$navbar-item-hover-color: $primary;
+$footer-padding: 2rem 1.5rem 4rem;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+    position: fixed;
+    box-shadow: 0 .5em 1em -.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.01);
+    margin-bottom: 5rem;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.footer-text {
+    font-size: small;
+}
+
+.home-body {
+    height: 50rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+@import "../../node_modules/bulma/sass/components/_all.sass";
+@import "../../node_modules/bulma/sass/elements/_all.sass";
+@import '../../node_modules/bulma/sass/form/_all.sass';
+@import '../../node_modules/bulma/sass/grid/_all.sass';
+@import "../../node_modules/bulma/sass/layout/_all.sass";
